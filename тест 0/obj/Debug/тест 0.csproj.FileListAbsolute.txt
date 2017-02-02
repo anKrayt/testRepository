@@ -1,0 +1,6 @@
+E:\задания\тест 0\тест 0\bin\Debug\тест 0.exe.config
+E:\задания\тест 0\тест 0\bin\Debug\тест 0.exe
+E:\задания\тест 0\тест 0\bin\Debug\тест 0.pdb
+E:\задания\тест 0\тест 0\obj\Debug\тест 0.csprojResolveAssemblyReference.cache
+E:\задания\тест 0\тест 0\obj\Debug\тест 0.exe
+E:\задания\тест 0\тест 0\obj\Debug\тест 0.pdb
