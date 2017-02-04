@@ -104,7 +104,7 @@ namespace тест_0
                 }
                 else if (q == "нет")
                 {
-                    wallet = purchase(wallet, product, price);
+                    wallet = buy(wallet, product, price);
                 }
                 else if (q == "домой")
                 {
@@ -149,6 +149,10 @@ namespace тест_0
                 {
                     Console.WriteLine("Попробуйте использовать целые числа");
                 }
+                else if(priceNext[priceNext.Length - 1] < 0)
+                {
+                    Console.WriteLine("Использование отрецательных чисел запрещено");
+                }
                 else
                 {
                     Console.WriteLine("Халявы не будет!");
@@ -158,7 +162,7 @@ namespace тест_0
             return price;
         }
 
-        public static int purchase(int wallet, string[] product, int[] price)
+        public static int buy(int wallet, string[] product, int[] price)
         {
             string q;
             bool u = true;
